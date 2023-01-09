@@ -28,7 +28,7 @@ export function App() {
        <NeWtransactionModal
           isOpen={isNewTransactionModalOpen}
           onRequestClose={handleCloseNewTransactionModal}
-          />
+        />
        
        <GlobalStyle/>
     </>
