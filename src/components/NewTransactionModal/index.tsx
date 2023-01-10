@@ -1,7 +1,6 @@
 import { FormEvent, useState, useContext } from 'react';
 import Modal from 'react-modal';
 import { TransactionsContext } from '../../TransactionsContext';
-import { api } from '../../services/api';
 
 import closeImg from '../../assets/close.svg';
 import incomeImg from '../../assets/income.svg';
@@ -37,7 +36,8 @@ export function NeWtransactionModal ({isOpen, onRequestClose}: NewTransactionMod
     setCategory('');
     setType('deposit');
     onRequestClose();
-  }
+
+  };
   
   return (
   <Modal 
@@ -66,7 +66,7 @@ export function NeWtransactionModal ({isOpen, onRequestClose}: NewTransactionMod
       <input
         type='number'
         placeholder='Valor'
-        value={amount}
+        value={amount === 0 ? '' : amount}
         onChange={event => setAmount(Number(event.target.value))}
       />
       
