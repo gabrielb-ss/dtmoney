@@ -7,11 +7,7 @@
       <img alt="gabrielb-ss" src="https://img.shields.io/badge/-Gabriel Barbosa-5965e0?style=flat&logo=Linkedin&logoColor=white" />
    </a>
   <img alt="Languages" src="https://img.shields.io/github/languages/count/gabrielb-ss/dtmoney?color=%235963C5" />
-  <img alt="lastcommit" src="https://img.shields.io/github/last-commit/gabrielb-ss/dtmoney?color=%235761C3" />
   <img alt="License" src="https://img.shields.io/github/license/gabrielb-ss/dtmoney?color=%235E69D7" />
-  <a href="mailto:britoleonne@gmail.com">
-   <img alt="Email" src="https://img.shields.io/badge/-gbarbosad.ss@gmail.com-%23525DCB" />
-  </a>
 </p>
 
 <p align="center">
